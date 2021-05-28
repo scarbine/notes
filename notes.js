@@ -34,3 +34,14 @@ notes.push(noteAboutToday) ;
 
 console.log(notes) ;
 
+// This loops thru the notes array and prints out a a list of the notes
+
+for (const note of notes) {
+    console.log(`Note ${note.id} 
+    Subject: ${note.subject}
+    Date: ${note.date}
+    Feeling: ${note.feeling}
+    Time Spent: ${note.timeSpent}
+    -------------------------------
+    `)
+}
