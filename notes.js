@@ -111,7 +111,6 @@ const addNewNote = (arr) => {
 
     moreNewerNote.id = addNewNote(notes);
     notes.push(moreNewerNote);
-    addNewNote(notes)
     console.log(notes);
 
 
